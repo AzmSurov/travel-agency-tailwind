@@ -43,19 +43,19 @@ const Search = () => {
       </div>
 
       <div>
-          <div className='border text-center'>
-              <p className='pt-2'>GET AN ADDITIONAL 10% OFF</p>
-              <p className='py-4'>12 HOURS LEFT</p>
-              <p className='bg-gray-800 text-gray-200 py-2'>BOOK NOW AND SAVE</p>
+          <div className='border text-center rounded-lg'>
+              <p className='py-2 text-black'>Take 10% off for next 12 hours!</p>
+
+              <p className='bg-gray-600 text-white py-2 '>BOOK NOW AND SAVE</p>
           </div>
           <form className='w-full'>
               <div className='flex flex-col my-2'>
                   <label>Destination</label>
                   <select className='border rounded-md p-2'>
-                      <option>Grande Antigua</option>
-                      <option>Key West</option>
+                      <option>Phuket Island</option>
+                      <option>Bali</option>
                       <option>Maldives</option>
-                      <option>Cozumel</option>
+                      <option>Bahamas</option>
                   </select>
               </div>
               <div className='flex flex-col my-4'>

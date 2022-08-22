@@ -44,7 +44,7 @@ const Destination = () => {
         <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Top Destinations</h1>
         <div class="h-1 w-1/2 bg-indigo-500 rounded"></div>
       </div>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whether it's traveling to the Azores, Jamaica, the Dominican Republic or just enjoying a ski holiday in Quebec or adventures in the Yukon there are so many amazing travel experiences waiting for you. Below are the list of some of our favorite destinations</p>
     </div>
     <div class="flex flex-wrap -m-4">
         {data.map(({id, src, division, title, description}) => (
